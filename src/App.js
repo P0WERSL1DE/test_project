@@ -20,7 +20,7 @@ function App() {
 	
 	const addNewTodo = (text) => {
 		if (!text) {
-			alert(' Введите наименование дела ')
+			alert('Введите наименование дела')
 		}
 		else {
 			const addedNewTodo = [{id: todos.length ? todos[0].id + 1 : 1, text: text}, ...todos]
